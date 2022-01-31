@@ -4,7 +4,7 @@ import React from 'react'
 const Site = props => {
 return(
   <div>
-      <nav className='navbar navbar-default navbar-fixed-top'>
+      <nav className='navbar navbar-dark navbar-fixed-top'>
       <div className='container'>
         <div className='navbar-header'>
           <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
