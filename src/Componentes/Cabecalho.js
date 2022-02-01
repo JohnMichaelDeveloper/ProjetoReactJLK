@@ -43,7 +43,7 @@ const Cabecalho = props => {
             <div class='right-items'>
               <div class='login-text'>
                 <div class='menu-hamburger'>
-                  <button id='button-hamburger'><img alt='Menu Hamburger' title='Menu' src='~/img/icone-hamburger.png' class='icones-img'/></button>
+                  <button id='button-hamburger'><img alt='Menu Hamburger' title='Menu' src='/src/img/icone-hamburger.png' class='icones-img'/></button>
                   <ul className='bg-warning'>
 
                   <li><Link to='/pacotes'>Pacotes</Link></li>
