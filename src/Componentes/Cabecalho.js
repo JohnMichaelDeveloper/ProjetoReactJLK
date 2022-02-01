@@ -47,6 +47,7 @@ const Cabecalho = props => {
                   <button id='button-hamburger'><BsList /></button>
                   <ul className='bg-warning'>
 
+                  <li><Link to='/' exact>Inicio</Link></li>
                   <li><Link to='/pacotes'>Pacotes</Link></li>
                   <li><Link to='/registrarPacotes'>Registrar Pacotes</Link></li>
                   <li><Link to='/listaDePacotes'>Lista de Pacotes</Link></li>
