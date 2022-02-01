@@ -44,7 +44,7 @@ const Cabecalho = props => {
             <div className='right-items'>
               <div className='login-text'>
                 <div className='menu-hamburger'>
-                  <button id='button-hamburger'>|||{/*<img alt='Menu Hamburger' title='Menu' className='icones-img'><BsList /></img>*/}</button>
+                  <button id='button-hamburger'><img alt='Menu Hamburger' title='Menu' className='icones-img'><BsList /></img></button>
                   <ul className='bg-warning'>
 
                   <li><Link to='/pacotes'>Pacotes</Link></li>
