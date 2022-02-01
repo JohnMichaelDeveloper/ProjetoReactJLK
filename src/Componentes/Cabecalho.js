@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { IoIosMenu } from 'react-icons/fa';
+import { IoIosMenu } from "@react-icons/all-files/fa/FaBeer";
 const Cabecalho = props => {
   return (
     <div> 
