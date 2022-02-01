@@ -4,7 +4,6 @@ import {BrowserRouter, Route} from 'react-router-dom';
 
 // importações da app
 import React, {Component} from 'react';
-import Site from './site';
 import Rodape from './Componentes/Rodape';
 import Cabecalho from './Componentes/Cabecalho';
 import Inicio from './Componentes/Inicio';
