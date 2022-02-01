@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import { IoIosMenu } from 'react-icons/fa';
 const Cabecalho = props => {
   return (
     <div> 
@@ -43,7 +44,7 @@ const Cabecalho = props => {
             <div className='right-items'>
               <div className='login-text'>
                 <div className='menu-hamburger'>
-                  <button id='button-hamburger'><img alt='Menu Hamburger' title='Menu' src='/src/img/icone-hamburger.png' className='icones-img'/></button>
+                  <button id='button-hamburger'><img alt='Menu Hamburger' title='Menu' className='icones-img'><IoIosMenu /></img></button>
                   <ul className='bg-warning'>
 
                   <li><Link to='/pacotes'>Pacotes</Link></li>
