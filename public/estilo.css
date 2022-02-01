@@ -141,6 +141,11 @@ footer .glyphicon {
   -webkit-animation-duration: 1s;
   visibility: visible;
 }
+.img-just{
+  width: auto; 
+  height: 50px;
+}
+
 @keyframes slide {
   0% {
     opacity: 0;
