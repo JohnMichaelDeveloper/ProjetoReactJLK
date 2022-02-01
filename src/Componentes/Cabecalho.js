@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 const Cabecalho = props => {
   return (
     <div> 
-      <nav className='navbar navbar-transparent navbar-fixed-top'>
+      <nav id="navbarLink" className='navbar navbar-transparent navbar-fixed-top'>
         <div className='container'>
           <div className='navbar-header'>
             <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
