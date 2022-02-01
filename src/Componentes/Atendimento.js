@@ -2,7 +2,7 @@ import React from "react";
 
 const Atendimento = props =>{
   return(
-    <div id='contact' className='container-fluid bg-grey'>
+    <div id='atendimento' className='container-fluid bg-grey'>
       <h2 className='text-center'>CONTACT</h2>
       <div className='row'>
         <div className='col-sm-5'>

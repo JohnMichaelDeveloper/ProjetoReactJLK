@@ -28,6 +28,7 @@ class App extends Component {
         <Route path='/registrarPacotes' component={RegistrarPacotes} />
         <Route path='/listaDePacotes' component={ListaDePacotes} />
         <Route path='/listaDeUsuarios' component={ListaDeUsuarios} />
+        <Route path='/atendimento' component={Atendimento} />
         <Route path='/login' component={Login} />
         <Route path='/cadastro' component={Cadastro} />
                

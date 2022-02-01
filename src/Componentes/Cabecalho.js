@@ -11,7 +11,7 @@ const Cabecalho = props => {
               <span className='icon-bar'></span>
               <span className='icon-bar'></span>                        
             </button>
-            <Link className='navbar-brand' href='#myPage'>JLK</Link>
+            <Link className='navbar-brand' to='/'>JLK</Link>
           </div>
           <div className='collapse navbar-collapse' id='myNavbar'>
             <ul className='nav navbar-nav navbar-right'>
@@ -20,6 +20,7 @@ const Cabecalho = props => {
               <li><Link to='/registrarPacotes'>Registrar Pacotes</Link></li>
               <li><Link to='/listaDePacotes'>Lista de Pacotes</Link></li>
               <li><Link to='/listaDeUsuarios'>Lista de Usário</Link></li>
+              <li><Link to='/atendimento'>Atendimento</Link></li>
               <li><Link to='/login'>Entrar</Link></li>
               <li><Link to='/cadastro'>Cadastre-se</Link></li>
             </ul>
