@@ -35,8 +35,9 @@ const Cabecalho = props => {
           <div className='input-group'>
             <input type='email' className='form-control' size='50' placeholder='Email Address' required />
             <div className='input-group-btn'>
-              <button type='button' className='btn btn-danger'>Inscreva-se</button>
-            </div>
+            <button type='button' className='btn btn-danger'>Inscreva-se</button>
+            </div>          
+
           </div>
         </form>
       </div>
