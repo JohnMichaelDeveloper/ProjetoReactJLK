@@ -3,7 +3,7 @@ import React from "react";
 const Login = props =>{
   return(
     
-    <div id='pricing' className='container-fluid'>
+    <div id='login' className='container-fluid'>
       <div className='text-center'>
         <h2>Outros</h2>
         <h4>Choose a payment plan that works for you</h4>

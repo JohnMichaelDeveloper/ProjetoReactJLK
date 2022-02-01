@@ -2,7 +2,7 @@ import React from "react";
 
 const Cadastro = props =>{
   return( 
-    <div className='container-fluid bg-grey'>
+    <div id='cadastro' className='container-fluid bg-grey'>
       {/*_________PRECISA MODIFICAR_______ */}
     <div className='row'>
       <div className='col-sm-4'>

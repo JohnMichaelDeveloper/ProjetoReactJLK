@@ -2,7 +2,7 @@ import React from "react";
 
 const ListaDePacotes = props =>{
   return( 
-    <div id='portfolio' className='container-fluid text-center bg-grey'>
+    <div id='listaDePacotes' className='container-fluid text-center bg-grey'>
       {/* ________________PRECISA MODIFICAR__________________________ */}
     <h2>Promoções</h2><br />
     <h4>What we have created</h4>

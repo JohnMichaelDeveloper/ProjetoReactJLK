@@ -2,7 +2,7 @@ import React from "react";
 
 const Pacotes = props =>{
   return(
-    <div id='services' className='container-fluid text-center'>
+    <div id='pacotes' className='container-fluid text-center'>
       <h2>Pacotes</h2>
       <h4>What we offer</h4>
       <br />

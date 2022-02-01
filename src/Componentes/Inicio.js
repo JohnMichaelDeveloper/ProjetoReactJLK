@@ -3,21 +3,8 @@ import React from "react";
 const Inicio = props =>{
   return(
     <div>
-      <div className='jumbotron text-center'>
-        <h1>Viaje com JLK</h1> 
-        <p>Promoções especiais</p> 
-        <form>
-          <div className='input-group'>
-            <input type='email' className='form-control' size='50' placeholder='Email Address' required />
-            <div className='input-group-btn'>
-              <button type='button' className='btn btn-danger'>Inscreva-se</button>
-            </div>
-          </div>
-        </form>
-      </div>
-
       {/* Container (About Section) */}
-      <div id='about' className='container-fluid'>
+      <div id='inicio' className='container-fluid'>
         <div className='row'>
           <div className='col-sm-8'>
             <h2>Sobre a JLK</h2><br />

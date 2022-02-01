@@ -1,4 +1,5 @@
 //importações externos
+import {BrowserRouter, Route} from 'react-router-dom';
 
 
 // importações da app
@@ -18,19 +19,22 @@ import Atendimento from './Componentes/Atendimento';
 class App extends Component {
   render(){
     return (
+      <BrowserRouter>
       <div className="App">
         <Cabecalho />
-        <Inicio />
-        <Pacotes />
-        <RegistrarPacotes />
-        <ListaDePacotes />
-        <ListaDeUsuarios />
-        <Atendimento />
-        <Cadastro />
-        <Login />
-        <Site />
+
+        <Route path='/' exact component={Inicio} />
+        <Route path='/pacotes' component={Pacotes} />
+        <Route path='/registrarPacotes' component={RegistrarPacotes} />
+        <Route path='/listaDePacotes' component={ListaDePacotes} />
+        <Route path='/listaDeUsuarios' component={ListaDeUsuarios} />
+        <Route path='/login' component={Login} />
+        <Route path='/cadastro' component={Cadastro} />
+               
+
         <Rodape />
       </div>
+      </BrowserRouter>
     );
   }
 }

@@ -3,7 +3,7 @@ import React from "react";
 const RegistrarPacotes = props =>{
   return(    
     
-    <div id='portfolio' className='container-fluid text-center bg-grey'>
+    <div id='registrarPacotes' className='container-fluid text-center bg-grey'>
       <h2>Promoções</h2><br />
       <h4>What we have created</h4>
       <div className='row text-center '>
