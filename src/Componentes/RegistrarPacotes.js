@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {BsFillPlusCircleFill} from 'react-icons/bs';
 const RegistrarPacotes = props =>{
   return(    
     
@@ -9,7 +9,7 @@ const RegistrarPacotes = props =>{
     <div className='cadastro-content d-flex justify-content-around'>  
     <div>
         {/* <div className='icone-titulo'><img className='icones-content' src='~/img/icone-suitcase.png'/><h3 className='titulos'>REGISTRO DE PACOTES</h3></div> */}
-        <div className='icone-titulo'><img className='icones-content' alt='RegistroDePacotes' href='../img/icone-suitcase.png'/><h3 className='titulos'>REGISTRO DE PACOTES</h3></div>
+        <div className='icone-titulo'><BsFillPlusCircleFill /><h3 className='titulos'>REGISTRO DE PACOTES</h3></div>
         <form className='form-style' action='Registro_Pacotes' method='POST'>
 
             <label className='label-style' asp-for='nome'>Nome:</label>
