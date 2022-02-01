@@ -3,7 +3,39 @@ import {Link} from 'react-router-dom';
 const Cabecalho = props => {
   return (
     <div> 
-      <nav id="navbarLink" className='navbar navbar-transparent navbar-fixed-top'>
+      <nav id="navbarLink" class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <Link class="navbar-brand" to="/">JLK</Link>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><Link to='/'>Inicio</Link></li>
+              <li class="dropdown">
+                <Link class="dropdown-toggle" data-toggle="dropdown" to="#">Promoções <span class="caret"></span></Link>
+                <ul class="dropdown-menu">
+                  <li><Link to='/pacotes'>Pacotes</Link></li>
+                  <li><Link to='/registrarPacotes'>Registrar Pacotes</Link></li>
+                  <li><Link to='/listaDePacotes'>Lista de Pacotes</Link></li>
+                </ul>
+              </li>
+              <li><Link to='/listaDeUsuarios'>Lista de Usário</Link></li>
+              <li><Link to='/atendimento'>Atendimento</Link></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><Link to='/cadastro'><span class="glyphicon glyphicon-user"></span> Cadastre-se</Link></li>
+              <li><Link to='/login'><span class="glyphicon glyphicon-log-in"></span> Entrar</Link></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      {/* <nav id="navbarLink" className='navbar navbar-transparent navbar-fixed-top'>
         <div className='container'>
           <div className='navbar-header'>
             <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
@@ -26,7 +58,7 @@ const Cabecalho = props => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
 
       <div className='jumbotron text-center'>
         <h1>Viaje com JLK</h1> 
