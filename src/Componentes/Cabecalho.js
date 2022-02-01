@@ -3,22 +3,22 @@ import {Link} from 'react-router-dom';
 const Cabecalho = props => {
   return (
     <div> 
-      {/* <nav id='navbarLink' class='navbar navbar-inverse'>
-        <div class='container-fluid'>
-          <div class='navbar-header'>
-            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
-              <span class='icon-bar'></span>
-              <span class='icon-bar'></span>
-              <span class='icon-bar'></span>                        
+      {/* <nav id='navbarLink' className='navbar navbar-inverse'>
+        <div className='container-fluid'>
+          <div className='navbar-header'>
+            <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
+              <span className='icon-bar'></span>
+              <span className='icon-bar'></span>
+              <span className='icon-bar'></span>                        
             </button>
-            <Link class='navbar-brand' to='/'>JLK</Link>
+            <Link className='navbar-brand' to='/'>JLK</Link>
           </div>
-          <div class='collapse navbar-collapse' id='myNavbar'>
-            <ul class='nav navbar-nav'>
-              <li class='active'><Link to='/'>Inicio</Link></li>
-              <li class='dropdown'>
-                <Link class='dropdown-toggle' data-toggle='dropdown' to='#'>Promoções <span class='caret'></span></Link>
-                <ul class='dropdown-menu'>
+          <div className='collapse navbar-collapse' id='myNavbar'>
+            <ul className='nav navbar-nav'>
+              <li className='active'><Link to='/'>Inicio</Link></li>
+              <li className='dropdown'>
+                <Link className='dropdown-toggle' data-toggle='dropdown' to='#'>Promoções <span className='caret'></span></Link>
+                <ul className='dropdown-menu'>
                   <li><Link to='/pacotes'>Pacotes</Link></li>
                   <li><Link to='/registrarPacotes'>Registrar Pacotes</Link></li>
                   <li><Link to='/listaDePacotes'>Lista de Pacotes</Link></li>
@@ -27,23 +27,23 @@ const Cabecalho = props => {
               <li><Link to='/listaDeUsuarios'>Lista de Usário</Link></li>
               <li><Link to='/atendimento'>Atendimento</Link></li>
             </ul>
-            <ul class='nav navbar-nav navbar-right'>
-              <li><Link to='/cadastro'><span class='glyphicon glyphicon-user'></span> Cadastre-se</Link></li>
-              <li><Link to='/login'><span class='glyphicon glyphicon-log-in'></span> Entrar</Link></li>
+            <ul className='nav navbar-nav navbar-right'>
+              <li><Link to='/cadastro'><span className='glyphicon glyphicon-user'></span> Cadastre-se</Link></li>
+              <li><Link to='/login'><span className='glyphicon glyphicon-log-in'></span> Entrar</Link></li>
             </ul>
           </div>
         </div>
       </nav> */}
 
-        <nav className='nav-bar bg-warning'>
+        <nav id='navbarLink'  className='nav-bar bg-warning'>
             <div>
                 <Link to='Index'><img src='https://media.discordapp.net/attachments/871853660706058323/925117445776228352/logo-branco.png' alt='Logo' title='Viagens JLK' className='logo img-just' 
                 /></Link>
             </div>
-            <div class='right-items'>
-              <div class='login-text'>
-                <div class='menu-hamburger'>
-                  <button id='button-hamburger'><img alt='Menu Hamburger' title='Menu' src='/src/img/icone-hamburger.png' class='icones-img'/></button>
+            <div className='right-items'>
+              <div className='login-text'>
+                <div className='menu-hamburger'>
+                  <button id='button-hamburger'><img alt='Menu Hamburger' title='Menu' src='/src/img/icone-hamburger.png' className='icones-img'/></button>
                   <ul className='bg-warning'>
 
                   <li><Link to='/pacotes'>Pacotes</Link></li>
