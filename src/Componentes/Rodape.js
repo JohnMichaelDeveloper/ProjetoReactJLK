@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 const Rodape = props =>{
   return(
     <footer className='container-fluid text-center'>
-      <Link to='/navbarLink' title='To Top'>
+      <Link to='/' title='To Top'>
         <span className='glyphicon glyphicon-chevron-up'></span>
       </Link>
       <p>Site criado por John Michael - <a href='https://github.com/JohnMichaelDeveloper' title='GitHub'>GitHub - 2022.</a></p>
