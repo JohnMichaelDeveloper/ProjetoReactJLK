@@ -18,7 +18,8 @@ h4 {
   margin-bottom: 30px;
 }  
 .jumbotron {
-  background-color: #f4511e;
+  background-image: url();
+  background-color: rgb(255, 38, 0);
   color: #fff;
   padding: 100px 25px;
   font-family: Montserrat, sans-serif;
@@ -107,7 +108,7 @@ h4 {
 }
 .navbar {
   margin-bottom: 0;
-  background-color: #f4511e;
+  background-color: transparent !important;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
