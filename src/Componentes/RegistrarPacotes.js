@@ -1,46 +1,46 @@
-import React from "react";
+import React from 'react';
 
 const RegistrarPacotes = props =>{
   return(    
     
     <div id='registrarPacotes' className='container-fluid text-center bg-grey'>
 
-<main className="fundo-color min-vh-100" >
-    <div className="cadastro-content d-flex justify-content-around">  
+<main className='fundo-color min-vh-100' >
+    <div className='cadastro-content d-flex justify-content-around'>  
     <div>
-        {/* <div className="icone-titulo"><img className="icones-content" src="~/img/icone-suitcase.png"/><h3 className="titulos">REGISTRO DE PACOTES</h3></div> */}
-        <div className="icone-titulo"><img className="icones-content" alt="RegistroDePacotes" href='../img/icone-suitcase.png'/><h3 className="titulos">REGISTRO DE PACOTES</h3></div>
-        <form className="form-style" action="Registro_Pacotes" method="POST">
+        {/* <div className='icone-titulo'><img className='icones-content' src='~/img/icone-suitcase.png'/><h3 className='titulos'>REGISTRO DE PACOTES</h3></div> */}
+        <div className='icone-titulo'><img className='icones-content' alt='RegistroDePacotes' href='../img/icone-suitcase.png'/><h3 className='titulos'>REGISTRO DE PACOTES</h3></div>
+        <form className='form-style' action='Registro_Pacotes' method='POST'>
 
-            <label className="label-style" asp-for="nome">Nome:</label>
-            <input className="input-style" asp-for="nome" name="nome" required placeholder="Nome do pacote" maxlength="20"/>
+            <label className='label-style' asp-for='nome'>Nome:</label>
+            <input className='input-style' asp-for='nome' name='nome' required placeholder='Nome do pacote' maxlength='20'/>
 
-            <label className="label-style" asp-for="origem">Origem:</label>
-            <input className="input-style" asp-for="origem" name="origem" required placeholder="Local de origem"/>
+            <label className='label-style' asp-for='origem'>Origem:</label>
+            <input className='input-style' asp-for='origem' name='origem' required placeholder='Local de origem'/>
 
-            <label className="label-style" asp-for="destino">Destino:</label>
-            <input className="input-style" asp-for="destino" name="destino" required placeholder="Local de destino"/>
+            <label className='label-style' asp-for='destino'>Destino:</label>
+            <input className='input-style' asp-for='destino' name='destino' required placeholder='Local de destino'/>
 
-            <label className="label-style" asp-for="saida">Data de saída:</label>
-            <input className="input-style" asp-for="saida" name="saida" required placeholder="dd/mm/dd" maxlength="10"/>
+            <label className='label-style' asp-for='saida'>Data de saída:</label>
+            <input className='input-style' asp-for='saida' name='saida' required placeholder='dd/mm/dd' maxlength='10'/>
 
-            <label className="label-style" asp-for="retorno">Data de retorno:</label>
-            <input className="input-style" asp-for="retorno" name="retorno" required placeholder="dd/mm/dd" maxlength="10"/>
+            <label className='label-style' asp-for='retorno'>Data de retorno:</label>
+            <input className='input-style' asp-for='retorno' name='retorno' required placeholder='dd/mm/dd' maxlength='10'/>
 
-            <label className="label-style" asp-for="preco">Preço:</label>
-            <input className="input-style" asp-for="preco" name="preco" required placeholder="Preço do pacote"/>
+            <label className='label-style' asp-for='preco'>Preço:</label>
+            <input className='input-style' asp-for='preco' name='preco' required placeholder='Preço do pacote'/>
 
                        
-            <input type="submit" value="Registrar" className="input-button"/>
+            <input type='submit' value='Registrar' className='input-button'/>
 
         </form>
      
      
 </div>
 
-    <div className="bloco-texto paragrafos d-none d-lg-block">
-        <h3 className="titulos">REGISTRO DE PACOTES DE VIAGEM</h3>
-        <p>Preecha os dados do pacote utilizando o formulário ao lado e use o botão "Registrar" para salva-lo no sistema.</p>
+    <div className='bloco-texto paragrafos d-none d-lg-block'>
+        <h3 className='titulos'>REGISTRO DE PACOTES DE VIAGEM</h3>
+        <p>Preecha os dados do pacote utilizando o formulário ao lado e use o botão 'Registrar' para salva-lo no sistema.</p>
     </div>
 
 </div>
