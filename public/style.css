@@ -46,11 +46,15 @@ body{
 
 }
 
+
 #button-hamburger{
    background: none;
    border:0;
    outline: none;
    cursor: pointer;
+   margin: -13px 1rem 8px 13rem;
+   width: 32px;
+   height: 32px;
 }
 
 .menu-hamburger button img{
