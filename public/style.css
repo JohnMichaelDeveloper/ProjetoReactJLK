@@ -45,16 +45,18 @@ body{
   height: 20px;
 
 }
-
+.Dbuttom-hamburger{
+  margin: -13px 1rem 8px 13rem;
+   width: 32px;
+   height: 32px;
+}
 
 #button-hamburger{
    background: none;
    border:0;
    outline: none;
    cursor: pointer;
-   margin: -13px 1rem 8px 13rem;
-   width: 32px;
-   height: 32px;
+   
 }
 
 .menu-hamburger button img{
@@ -377,6 +379,9 @@ margin-right: 20px;
   font-family:'Poppins', sans-serif;
   border:none;
 }  
+.drop-warning{
+  margin-top: -5px;
+}
 
 
 .atendimento-content ul li{
