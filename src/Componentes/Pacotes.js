@@ -3,7 +3,10 @@ import React from "react";
 const Pacotes = props =>{
   return(
     <div id='pacotes' className='container-fluid text-center'>
-      <h2>Pacotes</h2>
+
+      
+
+      {/* <h2>Pacotes</h2>
       <h4>What we offer</h4>
       <br />
       <div className='row '>
@@ -40,7 +43,7 @@ const Pacotes = props =>{
           <h4>HARD WORK</h4>
           <p>Lorem ipsum dolor sit amet..</p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 

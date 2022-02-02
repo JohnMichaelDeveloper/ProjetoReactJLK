@@ -213,35 +213,41 @@ margin-right: 20px;
 }
 
 #card01{
-  background-image: url("../img/card-gramado.jpg");
+  background-image: url("./img/card-gramado.jpg");
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
 }
 
 #card02{
-  background-image: url("../img/card-jp.jpg");
+  background-image: url("./img/card-jp.jpg");
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;  
 }
 
 #card03{
-  background-image: url("../img/card-salvador.jpg");
+  background-image: url("./img/card-salvador.jpg");
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;  
 }
 
 #card04{
-  background-image: url("../img/card-natal.jpg");
+  background-image: url("./img/card-natal.jpg");
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;  
 }
 
 #card05{
-  background-image: url("../img/card-rj.jpg");
+  background-image: url("./img/card-rj.jpg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;  
+}
+.card06{
+  background-image: url("./img/card-default.png");
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;  
