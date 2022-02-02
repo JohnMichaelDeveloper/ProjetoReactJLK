@@ -44,7 +44,7 @@ const Cabecalho = props => {
             <div className='right-items'>
               <div className='login-text'>
                 <div className='menu-hamburger'>
-                  <button className='Dbuttom-hamburger' id='button-hamburger'><BsList /></button>
+                  <button id='button-hamburger'><BsList className='Dbuttom-hamburger' /></button>
                   <ul className='bg-warning drop-warning'>
 
                   <li><Link to='/' exact>Inicio</Link></li>
