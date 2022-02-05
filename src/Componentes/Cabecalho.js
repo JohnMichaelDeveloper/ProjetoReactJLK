@@ -90,7 +90,7 @@ const Cabecalho = props => {
       </nav> */}
 
       <div className='jumbotron text-center' >
-        <img src='/public/img/home-bg-1.jpg' alt=''/>
+        <img src='img/home-bg-1.jpg' alt=''/>
         <h1>Viaje com JLK</h1> 
         <p>Promoções especiais</p> 
         <form>
