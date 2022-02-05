@@ -14,7 +14,7 @@ const Inicio = props =>{
     <div className='swiper-wrapper'>
 
         <div className='swiper-slide slide'>
-            <img src='images/img-1.jpg' alt=''/>
+            <img src='/public/img/img-1.jpg' alt=''/>
             <div className='icons'>
                 <a href='#'> <i className='fas fa-calendar'></i> 05/01/2022 </a>
                 <a href='#'> <i className='fas fa-user'></i> 2 </a>
@@ -25,7 +25,7 @@ const Inicio = props =>{
         </div>
 
         <div className='swiper-slide slide'>
-            <img src='images/img-2.jpg' alt=''/>
+            <img src='/public/img/img-2.jpg' alt=''/>
             <div className='icons'>
                 <a href='#'> <i className='fas fa-calendar'></i> 05/01/2022  </a>
                 <a href='#'> <i className='fas fa-user'></i> 2 </a>
@@ -36,7 +36,7 @@ const Inicio = props =>{
         </div>
 
         <div className='swiper-slide slide'>
-            <img src='images/img-3.jpg' alt=''/>
+            <img src='/public/img/img-3.jpg' alt=''/>
             <div className='icons'>
                 <a href='#'> <i className='fas fa-calendar'></i> 05/01/2022  </a>
                 <a href='#'> <i className='fas fa-user'></i> 2 </a>
@@ -47,7 +47,7 @@ const Inicio = props =>{
         </div>
 
         <div className='swiper-slide slide'>
-            <img src='images/img-4.jpg' alt=''/>
+            <img src='/public/img/img-4.jpg' alt=''/>
             <div className='icons'>
                 <a href='#'> <i className='fas fa-calendar'></i> 05/01/2022  </a>
                 <a href='#'> <i className='fas fa-user'></i> 2 </a>
@@ -58,7 +58,7 @@ const Inicio = props =>{
         </div>
 
         <div className='swiper-slide slide'>
-            <img src='images/img-5.jpg' alt=''/>
+            <img src='/public/img/img-5.jpg' alt=''/>
             <div className='icons'>
                 <a href='#'> <i className='fas fa-calendar'></i> 05/01/2022  </a>
                 <a href='#'> <i className='fas fa-user'></i> 2 </a>
